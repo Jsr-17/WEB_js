@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.7/tailwind.min.css">
+
+</head>
+<body class="bg-gray-400">
+    <header class="shadow-md  fixed w-full z-100 top-0 transition-colors duration-300 ease-in-out  shadow-black" id="header">
+        <nav class=" p-2  ">
+          <div class=" flex justify-between items-center ">
+            <div class=''>
+            <p class=" font-bold cursor-default   lg:text-lg sm:text-base ">José Antonio Román Moreno - FullStack Developer</p>
+            </div>
+            <div class='flex'>
+            <ul class='inline-flex mx-10  '>
+              <li class=' cursor-pointer'>
+                <a href="https://github.com/Jsr017"><img src="assets\github.png" href="#"  width="80px" alt="Logo Github" /></a> 
+              </li>
+              <li class='mx-3.5 cursor-pointer'>
+                <a href="https://www.linkedin.com/in/jos%C3%A9-antonio-rom%C3%A1n-moreno/"> <img src="assets\linkedin.png" href="" width="80px" alt="Logo Linkedin" /></a> 
+              </li>
+            </ul>
+            </div>
+            <div class="">
+            <ul class=" flex lg:text-lg sm:text-base  self-end mr-9">
+              <li >
+                <a id="homeLi" class= "  hover:rounded" href="#">Home</a>
+              </li>
+              <li>
+                <a id="aboutLi" class=" hover:rounded ml-2" href="#programmingLanguages">About me</a>
+              </li>
+              <li>
+                <a id="contactLi" class=" hover:rounded ml-2" href="https://www.linkedin.com/in/jos%C3%A9-antonio-rom%C3%A1n-moreno/">Contact</a>
+              </li>
+            </ul>
+            </div>
+          </div>
+        </nav>
+        </header>
+        <!-- Hero -->
+        <div class="flex items-center  justify-center bg-no-repeat bg-cover h-screen mt-10 bg-fixed z-10" style="background-image:url('assets/heroImage.jpg')" id="hero">
+          <div class="mx-auto bg-transparent  items-center justify-center  sm:w-4/5 lg:w-3/5 h-4/6 sm:mt-10 lg:mt-28">
+            <div class="mx-auto bg-gray-800 items-center justify-center w-10/12  h-5/6 rounded-l-3xl rounded-r-3xl border-4 shadow-2xl">
+              <div class="flex mx-auto  items-center justify-center w-4/6 h-4/6  my-16 text-white" id="tContainer"></div>
+            </div>
+          </div>
+        </div>
+        
+      <!-- Lenguajes -->
+        <div class="h-screen px-8 py-12 bg-gray-400 cursor-default " >
+          <a name="programmingLanguages" ></a>
+          <div class="flex justify-center items-center">
+                  <h1 class=" font-serif	text-5xl   mb-8   text-center  w-2/5 text-blue-50 bg-gray-800 underline shadow-lg shadow-slate-900">Lenguajes that I can  use :</h1>
+              </div>
+          <div class="grid grid-cols-2 gap-8 mt-16">
+              <div class="p-8 bg-blue-600 text-gray-900 rounded-lg  text-center">
+                  <h2 class="text-5xl   font-bold mb-4">Front-End</h2>
+                  <ul>
+                      <li class="text-3xl mb-2 hover:text-gray-400 transition-colors duration-300 ease-in-out ">React.Js</li>
+                      <li class="text-3xl mb-2 hover:text-gray-400 transition-colors duration-300 ease-in-out">JavaScript</li>
+                      <li class="text-3xl mb-2 hover:text-gray-400 transition-colors duration-300 ease-in-out">Angular</li>
+                      <li class="text-3xl mb-2 hover:text-gray-400 transition-colors duration-300 ease-in-out">HTML + CSS</li>
+                  </ul>
+              </div>
+              <div class="p-8 bg-gray-900 text-blue-600 rounded-lg  text-center ">
+                  <h2 class="text-5xl font-bold mb-4">Back-end</h2>
+                  <ul>
+                      <li class="text-3xl mb-2 hover:text-gray-400 transition-colors duration-300 ease-in-out ">Python</li>
+                      <li class="text-3xl mb-2 hover:text-gray-400 transition-colors duration-300 ease-in-out">PHP</li>
+                      <li class="text-3xl mb-2 hover:text-gray-400 transition-colors duration-300 ease-in-out">Java</li>
+                      <li class="text-3xl mb-2 hover:text-gray-400 transition-colors duration-300 ease-in-out">Node.Js</li>
+                  </ul>
+              </div>
+          </div>
+          <div class="mt-12 mb-3 flex flex-row flex-wrap justify-center items-center">
+            <img src="assets\angular.svg" class="w-24 h-24 mx-4 my-2" alt="Logo Angular" />
+            <img src="assets\codificacion.png" class="w-24 h-24 mx-4 my-2" alt="Logo Html+CSS " />
+            <img src="assets\js.png" class="w-24 h-24 mx-4 my-2" alt="Logo JavaScript" />
+            <img src="assets\react-2.svg" class="w-24 h-24 mx-4 my-2" alt="Logo React" />
+            <img src="assets\java.png" class="w-24 h-24 mx-4 my-2" alt="Logo Java" />
+            <img src="assets\Python-Logo-Free-Download-PNG.png" class="w-24 h-24 mx-4 my-2" alt="Logo Python" />
+            <img src="assets\php.png" class="w-24 h-24 mx-4 my-2" alt="Logo Php" />
+            <img src="assets\nodejs.png" class="w-24 h-24 mx-4 my-2" alt="Logo Node.js" />
+          </div>
+      </div>
+      <footer class="bg-gray-900 text-gray-400 py-4 end-0">
+        <div class="container mx-auto flex justify-between items-center">
+          <div class="text-sm">José Antonio Román Moreno </div>
+          <div class="text-sm"><ul class="inline-flex">
+            <li class="mr-2 ">Instagram <a  href="https://www.instagram.com/jsr17_developer/"> <img src="assets\instagram.svg" class="w-12" alt="Logo Instagram" /></a></li>
+            <li class="ml-2">Twitter <a href="https://twitter.com/Jsr17Developer"><img src="assets\twitter.svg" class="w-12" alt="Logo Twitter" /></a></li>
+          </ul></div>
+          <div class="text-sm">&copy; 2023 - All rights reserved</div>
+        </div>
+      </footer>
+    
+ <script src="./app/app.js"></script>   
+</body>
+</html>
