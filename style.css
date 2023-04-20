@@ -17,7 +17,7 @@
     font-family: monospace;
     white-space: nowrap;
     border-right: 4px solid;
-    width: 340px;
+    width: 300px;
 
     animation: typing 5s steps(6), blink .5s infinite step-end alternate;
     overflow: hidden;
@@ -29,7 +29,7 @@
     font-family: monospace;
     white-space: nowrap;
     border-right: 4px solid;
-    width: 340px;
+    width: 320px;
 
     animation: typing2 5s steps(6), blink .5s infinite step-end alternate;
     animation-delay: 5s;
