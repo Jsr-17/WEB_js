@@ -1,0 +1,165 @@
+.land {
+    background: linear-gradient(220.55deg, #565656 0%, #181818 100%);
+}
+
+.arrow {
+    display: inline-block;
+    margin-top: 80px;
+    border: solid 2PX white;
+    transform: rotate(135deg);
+    animation: bounce 1s infinite;
+    cursor: pointer;
+}
+
+.machineLetter {
+    margin-left: 15px;
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 340px;
+
+    animation: typing 5s steps(6), blink .5s infinite step-end alternate;
+    overflow: hidden;
+}
+
+.machineLetter2 {
+    margin-left: 15px;
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 340px;
+
+    animation: typing2 5s steps(6), blink .5s infinite step-end alternate;
+    animation-delay: 5s;
+    overflow: hidden;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes typing2 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        visibility: visible;
+        width: 340px;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-7px);
+    }
+}
+
+.burger-button {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    cursor: pointer;
+}
+
+.burger-button span {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background: black;
+    border-radius: 3px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: 0.25s ease-in-out;
+}
+
+.burger-button span:nth-child(1) {
+    top: 0px;
+}
+
+.burger-button span:nth-child(2),
+.burger-button span:nth-child(3) {
+    top: 12px;
+}
+
+.burger-button span:nth-child(4) {
+    top: 24px;
+}
+
+.burger-button.open span:nth-child(1) {
+    top: 12px;
+    width: 0%;
+    left: 50%;
+}
+
+.burger-button.open span:nth-child(2) {
+    transform: rotate(45deg);
+}
+
+.burger-button.open span:nth-child(3) {
+    transform: rotate(-45deg);
+}
+
+.burger-button.open span:nth-child(4) {
+    top: 12px;
+    width: 0%;
+    left: 50%;
+}
+
+.containerBurguerRemover{
+    display: none;
+}
+.containerBurguer{
+    display:block;
+    position: absolute;
+    left:82%;
+    border: 3px solid black;
+    margin-top: 11px;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+}
+.containerBurguer span{
+    margin: 18px;
+
+    font-size:small;
+    font-weight: bold;
+}
+
+.containerBurguer span:active{
+    background-color: grey;
+    border-radius: 15%;
+}
+ @media (min-width: 768px) {
+    .burger-button {
+      display: none;
+    }
+    .text-small{
+        display: none;
+    
+    }
+  } 
+  
