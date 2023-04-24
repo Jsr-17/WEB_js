@@ -98,7 +98,7 @@ const callback = (entries) => {
   document.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => {
       letterName.style.border='none'
-    }, 6300);
+    }, 3000);
   });
   down.addEventListener('click',()=>{
     hero.scrollIntoView({

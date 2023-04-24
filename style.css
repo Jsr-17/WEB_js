@@ -19,7 +19,7 @@
     border-right: 4px solid;
     width: 340px;
 
-    animation: typing 5s steps(6), blink .5s infinite step-end alternate;
+    animation: typing 4s steps(5), blink .5s infinite step-end alternate;
     overflow: hidden;
 }
 
@@ -31,8 +31,8 @@
     border-right: 4px solid;
     width: 320px;
 
-    animation: typing2 5s steps(6), blink .5s infinite step-end alternate;
-    animation-delay: 5s;
+    animation: typing2 4s steps(5), blink .5s infinite step-end alternate;
+    animation-delay: 4s;
     overflow: hidden;
     animation-fill-mode: forwards;
 }
